@@ -1,0 +1,34 @@
+''' JavaScript Object Notation'''
+import json
+
+people_string = '''
+{
+    "people": [
+        {
+            "name": "John Smith",
+            "phone": "6666666666",
+            "emails": ["johnsmith@bogusemail.com", "john.smith@work-place.com"],
+            "has_license": false
+        },
+        {
+            "name": "Jane Doe",
+            "phone": "555555555",
+            "emails": null,
+            "has_license": true
+        }
+    ]
+}
+'''
+
+data = json.loads(people_string)
+# print(type(data['people'])) #check type of data from json to python
+
+for person in data['people']:
+    # print(person['name']) #access into 'name' key in dictionary
+    del person['phone'] # delete a particular key in dictionary
+
+new_string = json.dumps(data, indent=2, sort_keys=True)
+
+print(new_string)
+
+
