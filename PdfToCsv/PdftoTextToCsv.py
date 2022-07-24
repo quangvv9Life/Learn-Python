@@ -1,15 +1,18 @@
 import os.path
 import csv
-import pdftotext
+# import pdftotext
+import tabula
+
 #Load your PDF
-with open("VTN_FCT_2007.pdf", "rb") as f:
-   pdf = pdftotext.PDF(f)
+with open(r"G:\tryPython\Python Test\PdfToCsv\VTN_FCT_2007.pdf", "rb") as f:
+#    pdf = pdftotext.PDF(f)
+    pdf = tabula.read_pdf(f, pages = 'all')
 
 # Save all text to a txt file.
 with open('crimestory.txt', 'w') as f:
     f.write("\n\n".join(pdf))
 
-save_path = "/home/mayureshk/PycharmProjects/NLP/"
+save_path = "G:\\tryPython\\Python Test\\PdfToCsv\\"
 
 completeName_in = os.path.join(save_path, 'crimestory' + '.txt')
 completeName_out = os.path.join(save_path, 'crimestoryycsv' + '.csv')
