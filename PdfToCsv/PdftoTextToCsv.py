@@ -4,15 +4,20 @@ import csv
 import tabula
 
 #Load your PDF
-with open(r"G:\tryPython\Python Test\PdfToCsv\VTN_FCT_2007.pdf", "rb") as f:
+with open(r"C:\Users\Dell\Documents\Python Test\PdfToCsv\VTN_FCT_2007.pdf", "rb") as f:
 #    pdf = pdftotext.PDF(f)
-    pdf = tabula.read_pdf(f, pages = 'all')
+    # pdf = tabula.read_pdf(f, pages = 'all')
+    # pdf = tabula.read_pdf(f, pages = 'all')[2]
+    pdf = tabula.read_pdf(f, pages = '14')
 
+print(pdf)
+print(type(pdf))
 # Save all text to a txt file.
-with open('crimestory.txt', 'w') as f:
-    f.write("\n\n".join(pdf))
+with open('VTN_FCT.txt', 'w') as f:
+    # f.write("\n\n".join(pdf))
+    f.write(pdf)
 
-save_path = "G:\\tryPython\\Python Test\\PdfToCsv\\"
+save_path = "C:\\Users\\Dell\\Documents\\Python Test\\PdfToCsv\\"
 
 completeName_in = os.path.join(save_path, 'crimestory' + '.txt')
 completeName_out = os.path.join(save_path, 'crimestoryycsv' + '.csv')

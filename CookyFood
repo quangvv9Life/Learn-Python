@@ -1,0 +1,34 @@
+CREATE TABLE CookFood (
+    Id BIGSERIAL NOT NULL,
+    Name VARCHAR(1000),
+    MetaTitle VARCHAR(1000),
+    TotalTime bigint,
+    Level VARCHAR(1000),
+    LevelId bigint,
+    TotalView bigint,
+    TotalReviews bigint,
+    AvgRating bigint,
+    Img VARCHAR(1000),
+    ImgMeta VARCHAR(1000),
+    Video VARCHAR(1000),
+    TotalCook bigint,
+    UrlRewrite VARCHAR(1000),
+    DetailUrl VARCHAR(1000),
+    IsLiked bit(1),
+    TotalLiked bigint,
+    AvgRatingToString VARCHAR(1000),
+    TotalTimeString varchar(1000),
+    TotalViewString varchar (1000),
+    PrepareTime bigint,
+    CookTime bigint,
+    TotalIngredients bigint,
+    CourseName varchar(1000),
+    description text
+);
+
+CREATE TABLE Ingredient (
+    Id BIGSERIAL NOT NULL,
+    Name VARCHAR(1000),
+    NameEn VARCHAR(1000),
+    UrlRewrite VARCHAR(1000),
+)

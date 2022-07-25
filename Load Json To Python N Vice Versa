@@ -1,0 +1,13 @@
+import json
+
+with open('states.json') as f:
+    data = json.load(f) #load json files into python
+    # data = json.loads(s) #load json string into python
+
+for state in data['states']:
+    # print(state['name'], state['abbreviation']) #access to  particular objects in json
+    del state['area_codes']
+
+with open('new_states.json', 'w') as f: #'w' is an arguement which stands for write
+    json.dump(data, f, indent=2) #write data to a json files, indent is used for format
+    # json.dumps() #write data to a json string
