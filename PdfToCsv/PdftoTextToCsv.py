@@ -2,20 +2,24 @@ import os.path
 import csv
 # import pdftotext
 import tabula
+import pandas as pd
 
 #Load your PDF
 with open(r"C:\Users\Dell\Documents\Python Test\PdfToCsv\VTN_FCT_2007.pdf", "rb") as f:
 #    pdf = pdftotext.PDF(f)
     # pdf = tabula.read_pdf(f, pages = 'all')
     # pdf = tabula.read_pdf(f, pages = 'all')[2]
-    pdf = tabula.read_pdf(f, pages = '14')
+    pdf = tabula.read_pdf(f, pages = 'all')[14]
 
-print(pdf)
-print(type(pdf))
+# print(pdf)
+# print(type(pdf))
 # Save all text to a txt file.
-with open('VTN_FCT.txt', 'w') as f:
+with open('VTN_FCT.txt', 'w', encoding="utf-8") as f:
+
+    pd.concat(pdf).to_csv(f)
     # f.write("\n\n".join(pdf))
-    f.write(pdf)
+    # dfAsString = pdf.to_string(header=False, index=False)
+    # f.write(dfAsString)
 
 save_path = "C:\\Users\\Dell\\Documents\\Python Test\\PdfToCsv\\"
 
