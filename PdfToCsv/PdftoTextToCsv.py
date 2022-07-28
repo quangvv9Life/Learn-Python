@@ -5,12 +5,24 @@ import tabula
 import pandas as pd
 import io
 
+# Define a function called "append data to csv"
+
+# from csv import writer
+def append_element_of_list_as_row(file_name, list_of_elem):
+    # Open file in append mode
+    with open(file_name, 'a+') as write_obj:
+        # Create a writer object from csv module
+        csv_writer = csv.writer(write_obj)
+        # Add contents of list as last row in the csv file
+        csv_writer.writerow(list_of_elem)
+
 #Load your PDF
 with io.open(r"C:\Users\Dell\Documents\Python Test\PdfToCsv\VTN_FCT_2007.pdf", "rb") as f:
 #    pdf = pdftotext.PDF(f)
     # pdf = tabula.read_pdf(f, pages = 'all')
     # pdf = tabula.read_pdf(f, pages = 'all')[2]
-    pagez = [14,15]
+    # pagez = [14,15]
+    pagez = list(range(13,22+1))
     pdf = tabula.read_pdf(f, pages = pagez)
     pdfReader = PyPDF2.PdfFileReader(f) 
     output = []
@@ -22,13 +34,17 @@ Listz = []
 for i in range(len(output)):
     innerList = output[i].split("\n")
     Listz.append(innerList[0])
-    
+
+with open("Extract.csv", "a") as file1:
+    for i in range(len(pagez)):
+        append_element_of_list_as_row("Extract.csv", Listz[i])
+        pdf[i].to_csv('Extract.csv', mode = "a") #, sep = ',', mode='a', index= False,header=False)
+
 # print(Listz)
 # print(pdf)
+# print(type(Listz))
 # print(type(pdf))
 # Save all text to a txt file.
-
-
 
 # for i in range(len(pdf)):
 #     df = pd.DataFrame(pdf[i])
@@ -36,18 +52,11 @@ for i in range(len(output)):
 #     df2 = pd.DataFrame(df.values[1:], columns=header_row)
 
 #     print(df2)
+# append_element_of_list_as_row("Extract.csv", Listz)
 
+# with open('VTN_FCT.txt', 'w', encoding="utf-8") as f:
 
-
-# with open("Extract.csv", "a") as file1:
-for i in range(len(pdf)):
-    # pdf[i].to_csv("Extract.csv", mode = "a")
-    pdf[i].to_csv('Extract.csv', mode = "a") #, sep = ',', mode='a', index= False,header=False)
-
-
-with open('VTN_FCT.txt', 'w', encoding="utf-8") as f:
-
-    pd.concat(pdf).to_csv(f)
+#     pd.concat(pdf).to_csv(f)
     # f.write("\n\n".join(pdf))
     # dfAsString = pdf.to_string(header=False, index=False)
     # f.write(dfAsString)

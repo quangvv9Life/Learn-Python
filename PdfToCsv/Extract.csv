@@ -1,50 +1,34 @@
-,Thμnh phÇn dinh d−ìng,ĐV,Hμm lượng,TLTK,Thμnh phÇn dinh d−ìng.1,ĐV.1,Hμm lượng.1,TLTK.1
-0,(Nutrients),(Unit),(Value),(Source),(Nutrients),(Unit),(Value),(Source)
-1,Nước (Water ),g,13.9,2,Tổng số isoflavon (Total isoflavone),mg,-,
-2,Năng lượng (Energy ),KCal,346,,Daidzein,mg,-,
-3,,KJ,1447,,Genistein,mg,-,
-4,Protein,g,8.4,2,Glycetin,mg,-,
-5,Lipid (Fat),g,1.6,2,Tổng số acid béo no,g,0.110,3
-6,Glucid (Carbohydrate),g,74.9,2,(Total saturated fatty acid),,,
-7,Celluloza (Fiber),g,0.5,2,Palmitic (C16:0),g,0.090,3
-8,Tro (Ash),g,0.7,2,Margaric (C17:0),g,0.000,3
-9,Đường tổng số (Sugar),g,-,,Stearic (C18:0),g,0.010,3
-10,Galactoza (Galactose),g,-,,Arachidic (C20:0),g,0.000,3
-11,Maltoza (Maltose),g,-,,Behenic (22:0),g,0.000,3
-12,Lactoza (Lactose),g,-,,Lignoceric (C24:0),g,0.000,3
-13,Fructoza (Fructose),g,-,,TS acid béo không no 1 nối đôi,g,0.200,3
-14,Glucoza (Glucose),g,-,,(Total monounsaturated fatty acid),,,
-15,Sacaroza (Sucrose),g,-,,Myristoleic (C14:1),g,0.000,3
-16,Calci (Calcium),mg,16,2,Palmitoleic (C16:1),g,0.000,3
-17,Sắt (Iron),mg,1.20,2,Oleic (C18:1),g,0.200,3
-18,Magiê (Magnesium),mg,17,2,TS acid béo không no nhiều nối đôi,g,0.200,3
-19,Mangan (Manganese),mg,1.100,2,(Total polyunsaturated fatty acid),,,
-20,Phospho (Phosphorous),mg,130,2,Linoleic (C18:2 n6),g,0.190,3
-21,Kali (Potassium),mg,282,2,Linolenic (C18:2 n3),g,0.010,3
-22,Natri (Sodium),mg,3,2,Arachidonic (C20:4),g,0.000,3
-23,Kẽm  (Zinc),mg,2.20,2,Eicosapentaenoic  (C20:5 n3),g,0.000,3
-24,Đồng (Copper),μg,280,2,Docosahexaenoic (C22:6 n3),g,0.000,3
-25,Selen (Selenium),μg,15.1,3,TS acid béo trans (Total trans fatty acid),g,-,
-26,Vitamin C (Ascorbic acid),mg,0,3,Cholesterol,mg,0,3
-27,Vitamin B1 (Thiamine),mg,0.16,2,Phytosterol,mg,-,
-28,Vitamin B2 (Riboflavin),mg,0.06,2,Lysin,mg,246,3
-29,Vitamin PP (Niacin),mg,2.4,2,Methionin,mg,160,3
-30,Vitamin B5 (Pantothenic acid),mg,0.284,3,Tryptophan,mg,79,3
-31,Vitamin B6 (Pyridoxine),mg,0.107,3,Phenylalanin,mg,364,3
-32,Folat (Folate),μg,7,3,Threonin,mg,244,3
-33,Vitamin B9 (Folic acid),μg,0,3,Valin,mg,416,3
-34,Vitamin H (Biotin ),μg,-,,Leucin,mg,563,3
-35,Vitamin B12 (Cyanocobalamine),μg,0,3,Isoleucin,mg,294,3
-36,Vitamin A (Retinol),μg,0,3,Arginin,mg,568,3
-37,Vitamin D (Calciferol ),μg,-,,Histidin,mg,160,3
-38,Vitamin E (Alpha-tocopherol ),mg,-,,Cystin,mg,140,3
-39,Vitamin K (Phylloquinone),μg,-,,Tyrosin,mg,228,3
-40,Beta-caroten,μg,0,3,Alanin,mg,395,3
-41,Alpha-caroten,μg,0,3,Acid aspartic,mg,640,3
-42,Beta-cryptoxanthin,μg,0,3,Acid glutamic,mg,1328,3
-43,Lycopen,μg,0,3,Glycin,mg,310,3
-44,Lutein + Zeaxanthin,μg,0,3,Prolin,mg,321,3
-45,Purin,mg,-,,Serin,mg,358,3
+
+S,T,T,:, ,1,M,�, ,s,�,:,1,0,0,1
+,M· sè BTP,M· sè BTP.1,Unnamed: 0,Unnamed: 1
+0,,,Tan thùc phÈm,Trang
+1,2000.0,2007.0,,
+S,T,T,:, ,2,M,�, ,s,�,:,1,0,0,2
+,1001,1001.1,G1o nÕp c ̧i,1
+0,1002.0,1002.0,G1o nÕp m ̧y(lo1i th−êng),2.0
+1,1003.0,1003.0,G1o tÎ gi·,3.0
+2,1004.0,1004.0,G1o tÎ m ̧y,4.0
+3,,1005.0,G1o løt,5.0
+4,,,,
+5,1005.0,1006.0,Ka,6.0
+6,1006.0,1007.0,Ng« b3⁄4p t−¬i,7.0
+7,1007.0,1008.0,Ng« vμng h1t kh«,8.0
+8,1008.0,1009.0,B ̧nh bao,9.0
+9,1009.0,1010.0,B ̧nh ®a nem,10.0
+10,1010.0,1011.0,B ̧nh ®óc,11.0
+11,1011.0,1012.0,B ̧nh mú,12.0
+12,1012.0,1013.0,B ̧nh phë,13.0
+13,1013.0,1014.0,B ̧nh quÈy,14.0
+14,1014.0,1015.0,Báng ng«,15.0
+15,1015.0,1016.0,Bét g1o nÕp,16.0
+16,1016.0,1017.0,Bét g1o tÎ,17.0
+17,1017.0,1018.0,Bét m×,18.0
+18,1018.0,1019.0,Bét ng« vμng,19.0
+19,1019.0,1020.0,Bón,20.0
+20,1020.0,1021.0,Cèm,21.0
+21,1021.0,1022.0,Mú sîi,22.0
+22,1022.0,1023.0,Ng« nÕp luéc,23.0
+S,T,T,:, ,3,M,�, ,s,�,:,1,0,0,3
 ,"Thμnh phÇn dinh d−ìng(Nutrients)","ĐV(Unit)","Hμm lượng(Value)","TLTK(Source)",Unnamed: 0,"Thμnh phÇn dinh d−ìng(Nutrients).1","ĐV(Unit).1","Hμm lượng(Value).1","TLTK(Source).1"
 0,"Nước (Water )Năng lượng (Energy )ProteinLipid (Fat)Glucid (Carbohydrate)Celluloza (Fiber)Tro (Ash)","gKCalKJggggg","14.034414418.61.574.50.60.8","111111",,"Tổng số isoflavon (Total isoflavone)DaidzeinGenisteinGlycetin","mgmgmgmg","----",
 1,,,,,,"Tổng số acid béo no(Total saturated fatty acid)Palmitic (C16:0)Margaric (C17:0)Stearic (C18:0)Arachidic (C20:0)Behenic (22:0)Lignoceric (C24:0)TS acid béo không no 1 nối đôi(Total monounsaturated fatty acid)Myristoleic (C14:1)Palmitoleic (C16:1)Oleic (C18:1)TS acid béo không no nhiều nối đôi(Total polyunsaturated fatty acid)Linoleic (C18:2 n6)Linolenic (C18:2 n3)Arachidonic (C20:4)Eicosapentaenoic  (C20:5 n3)Docosahexaenoic (C22:6 n3)TS acid béo trans (Total trans fatty acid)","gggggggggggggggggg","-------------------",
@@ -58,6 +42,7 @@
 9,"Beta-carotenAlpha-carotenBeta-cryptoxanthinLycopenLutein + Zeaxanthin","μgμgμgμgμg","00000","11111",,,,,
 10,Purin,mg,-,,,,,,
 11,,,,,,,,,
+S,T,T,:, ,4,M,�, ,s,�,:,1,0,0,4
 ,Thμnh phÇn dinh d−ìng,ĐV,Hμm lượng,TLTK,Thμnh phÇn dinh d−ìng.1,ĐV.1,Hμm lượng.1,TLTK.1
 0,(Nutrients),(Unit),(Value),(Source),(Nutrients),(Unit),(Value),(Source)
 1,Nước (Water ),g,13.9,2,Tổng số isoflavon (Total isoflavone),mg,-,
@@ -105,3 +90,291 @@
 43,Lycopen,μg,0,3,Glycin,mg,310,3
 44,Lutein + Zeaxanthin,μg,0,3,Prolin,mg,321,3
 45,Purin,mg,-,,Serin,mg,358,3
+S,T,T,:, ,5,M,�, ,s,�,:,1,0,0,5
+,Thμnh phÇn dinh d−ìng,ĐV,Hμm lượng,TLTK,Thμnh phÇn dinh d−ìng.1,ĐV.1,Hμm lượng.1,TLTK.1
+0,(Nutrients),(Unit),(Value),(Source),(Nutrients),(Unit),(Value),(Source)
+1,Nước (Water ),g,14.0,1,Tổng số isoflavon (Total isoflavone),mg,-,
+2,Năng lượng (Energy ),KCal,344,,Daidzein,mg,-,
+3,,KJ,1439,,Genistein,mg,-,
+4,Protein,g,8.1,1,Glycetin,mg,-,
+5,Lipid (Fat),g,1.3,1,Tổng số acid béo no,g,-,
+6,Glucid (Carbohydrate),g,75.0,1,(Total saturated fatty acid),,,
+7,Celluloza (Fiber),g,0.7,1,Palmitic (C16:0),g,-,
+8,Tro (Ash),g,0.9,1,Margaric (C17:0),g,-,
+9,Đường tổng số (Sugar),g,-,,Stearic (C18:0),g,-,
+10,Galactoza (Galactose),g,-,,Arachidic (C20:0),g,-,
+11,Maltoza (Maltose),g,-,,Behenic (22:0),g,-,
+12,Lactoza (Lactose),g,-,,Lignoceric (C24:0),g,-,
+13,Fructoza (Fructose),g,-,,TS acid béo không no 1 nối đôi,g,-,
+14,Glucoza (Glucose),g,-,,(Total monounsaturated fatty acid),,,
+15,Sacaroza (Sucrose),g,-,,Myristoleic (C14:1),g,-,
+16,Calci (Calcium),mg,36,1,Palmitoleic (C16:1),g,-,
+17,Sắt (Iron),mg,0.20,1,Oleic (C18:1),g,-,
+18,Magiê (Magnesium),mg,52,1,TS acid béo không no nhiều nối đôi,g,-,
+19,Mangan (Manganese),mg,1.500,1,(Total polyunsaturated fatty acid),,,
+20,Phospho (Phosphorous),mg,108,1,Linoleic (C18:2 n6),g,-,
+21,Kali (Potassium),mg,202,1,Linolenic (C18:2 n3),g,-,
+22,Natri (Sodium),mg,5,1,Arachidonic (C20:4),g,-,
+23,Kẽm  (Zinc),mg,1.90,1,Eicosapentaenoic  (C20:5 n3),g,-,
+24,Đồng (Copper),μg,360,1,Docosahexaenoic (C22:6 n3),g,-,
+25,Selen (Selenium),μg,38.8,1,TS acid béo trans (Total trans fatty acid),g,-,
+26,Vitamin C (Ascorbic acid),mg,0,1,Cholesterol,mg,0,1
+27,Vitamin B1 (Thiamine),mg,0.12,1,Phytosterol,mg,-,
+28,Vitamin B2 (Riboflavin),mg,0.04,1,Lysin,mg,-,
+29,Vitamin PP (Niacin),mg,1.9,1,Methionin,mg,-,
+30,Vitamin B5 (Pantothenic acid),mg,-,,Tryptophan,mg,-,
+31,Vitamin B6 (Pyridoxine),mg,-,,Phenylalanin,mg,-,
+32,Folat (Folate),μg,-,,Threonin,mg,-,
+33,Vitamin B9 (Folic acid),μg,-,,Valin,mg,-,
+34,Vitamin H (Biotin ),μg,3,5,Leucin,mg,-,
+35,Vitamin B12 (Cyanocobalamine),μg,-,,Isoleucin,mg,-,
+36,Vitamin A (Retinol),μg,0,1,Arginin,mg,-,
+37,Vitamin D (Calciferol ),μg,-,,Histidin,mg,-,
+38,Vitamin E (Alpha-tocopherol ),mg,-,,Cystin,mg,-,
+39,Vitamin K (Phylloquinone),μg,-,,Tyrosin,mg,-,
+40,Beta-caroten,μg,0,3,Alanin,mg,-,
+41,Alpha-caroten,μg,0,3,Acid aspartic,mg,-,
+42,Beta-cryptoxanthin,μg,0,3,Acid glutamic,mg,-,
+43,Lycopen,μg,0,3,Glycin,mg,-,
+44,Lutein + Zeaxanthin,μg,0,3,Prolin,mg,-,
+45,Purin,mg,-,,Serin,mg,-,
+S,T,T,:, ,6,M,�, ,s,�,:,1,0,0,6
+,Thμnh phÇn dinh d−ìng,ĐV,Hμm lượng,TLTK,Thμnh phÇn dinh d−ìng.1,ĐV.1,Hμm lượng.1,TLTK.1
+0,(Nutrients),(Unit),(Value),(Source),(Nutrients),(Unit),(Value),(Source)
+1,Nước (Water ),g,14.0,1,Tổng số isoflavon (Total isoflavone),mg,-,
+2,Năng lượng (Energy ),KCal,344,,Daidzein,mg,-,
+3,,KJ,1439,,Genistein,mg,-,
+4,Protein,g,7.9,1,Glycetin,mg,-,
+5,Lipid (Fat),g,1.0,1,Tổng số acid béo no,g,0.160,3
+6,Glucid (Carbohydrate),g,75.9,1,(Total saturated fatty acid),,,
+7,Celluloza (Fiber),g,0.4,1,Palmitic (C16:0),g,0.140,3
+8,Tro (Ash),g,0.8,1,Margaric (C17:0),g,0.000,3
+9,Đường tổng số (Sugar),g,-,,Stearic (C18:0),g,0.010,3
+10,Galactoza (Galactose),g,-,,Arachidic (C20:0),g,0.000,3
+11,Maltoza (Maltose),g,-,,Behenic (22:0),g,0.000,3
+12,Lactoza (Lactose),g,-,,Lignoceric (C24:0),g,0.000,3
+13,Fructoza (Fructose),g,-,,TS acid béo không no 1 nối đôi,g,0.180,3
+14,Glucoza (Glucose),g,-,,(Total monounsaturated fatty acid),,,
+15,Sacaroza (Sucrose),g,-,,Myristoleic (C14:1),g,0.000,3
+16,Calci (Calcium),mg,30,1,Palmitoleic (C16:1),g,0.000,3
+17,Sắt (Iron),mg,1.30,1,Oleic (C18:1),g,0.180,3
+18,Magiê (Magnesium),mg,14,1,TS acid béo không no nhiều nối đôi,g,0.160,3
+19,Mangan (Manganese),mg,0.900,1,(Total polyunsaturated fatty acid),,,
+20,Phospho (Phosphorous),mg,104,1,Linoleic (C18:2 n6),g,0.130,3
+21,Kali (Potassium),mg,241,1,Linolenic (C18:2 n3),g,0.030,3
+22,Natri (Sodium),mg,5,1,Arachidonic (C20:4),g,0.000,3
+23,Kẽm  (Zinc),mg,1.50,1,Eicosapentaenoic  (C20:5 n3),g,0.000,3
+24,Đồng (Copper),μg,230,1,Docosahexaenoic (C22:6 n3),g,0.000,3
+25,Selen (Selenium),μg,31.8,1,TS acid béo trans (Total trans fatty acid),g,-,
+26,Vitamin C (Ascorbic acid),mg,0,1,Cholesterol,mg,0,3
+27,Vitamin B1 (Thiamine),mg,0.10,1,Phytosterol,mg,-,
+28,Vitamin B2 (Riboflavin),mg,0.03,1,Lysin,mg,239,3
+29,Vitamin PP (Niacin),mg,1.6,1,Methionin,mg,155,3
+30,Vitamin B5 (Pantothenic acid),mg,1.342,3,Tryptophan,mg,77,3
+31,Vitamin B6 (Pyridoxine),mg,0.145,3,Phenylalanin,mg,353,3
+32,Folat (Folate),μg,9,3,Threonin,mg,236,3
+33,Vitamin B9 (Folic acid),μg,0,3,Valin,mg,403,3
+34,Vitamin H (Biotin ),μg,3,5,Leucin,mg,546,3
+35,Vitamin B12 (Cyanocobalamine),μg,0,3,Isoleucin,mg,285,3
+36,Vitamin A (Retinol),μg,0,1,Arginin,mg,551,3
+37,Vitamin D (Calciferol ),μg,-,,Histidin,mg,155,3
+38,Vitamin E (Alpha-tocopherol ),mg,-,,Cystin,mg,135,3
+39,Vitamin K (Phylloquinone),μg,-,,Tyrosin,mg,221,3
+40,Beta-caroten,μg,0,3,Alanin,mg,383,3
+41,Alpha-caroten,μg,0,3,Acid aspartic,mg,621,3
+42,Beta-cryptoxanthin,μg,0,3,Acid glutamic,mg,1288,3
+43,Lycopen,μg,0,3,Glycin,mg,301,3
+44,Lutein + Zeaxanthin,μg,0,3,Prolin,mg,311,3
+45,Purin,mg,-,,Serin,mg,347,3
+S,T,T,:, ,7,M,�, ,s,�,:
+,Thμnh phÇn dinh d−ìng,ĐV,Hμm lượng,TLTK,Thμnh phÇn dinh d−ìng.1,ĐV.1,Hμm lượng.1,TLTK.1
+0,(Nutrients),(Unit),(Value),(Source),(Nutrients),(Unit),(Value),(Source)
+1,Nước (Water ),g,12.4,3,Tổng số isoflavon (Total isoflavone),mg,-,
+2,Năng lượng (Energy ),KCal,345,,Daidzein,mg,-,
+3,,KJ,1443,,Genistein,mg,-,
+4,Protein,g,7.5,3,Glycetin,mg,-,
+5,Lipid (Fat),g,2.7,3,Tổng số acid béo no,g,0.540,3
+6,Glucid (Carbohydrate),g,72.8,3,(Total saturated fatty acid),,,
+7,Celluloza (Fiber),g,3.4,3,Palmitic (C16:0),g,0.460,3
+8,Tro (Ash),g,1.3,3,Margaric (C17:0),g,0.000,3
+9,Đường tổng số (Sugar),g,-,,Stearic (C18:0),g,0.050,3
+10,Galactoza (Galactose),g,-,,Arachidic (C20:0),g,0.000,3
+11,Maltoza (Maltose),g,-,,Behenic (22:0),g,0.000,3
+12,Lactoza (Lactose),g,-,,Lignoceric (C24:0),g,0.000,3
+13,Fructoza (Fructose),g,-,,TS acid béo không no 1 nối đôi,g,0.970,3
+14,Glucoza (Glucose),g,-,,(Total monounsaturated fatty acid),,,
+15,Sacaroza (Sucrose),g,-,,Myristoleic (C14:1),g,0.000,3
+16,Calci (Calcium),mg,16,2,Palmitoleic (C16:1),g,0.010,3
+17,Sắt (Iron),mg,2.80,2,Oleic (C18:1),g,0.960,3
+18,Magiê (Magnesium),mg,52,2,TS acid béo không no nhiều nối đôi,g,0.960,3
+19,Mangan (Manganese),mg,1.500,2,(Total polyunsaturated fatty acid),,,
+20,Phospho (Phosphorous),mg,246,2,Linoleic (C18:2 n6),g,0.920,3
+21,Kali (Potassium),mg,202,2,Linolenic (C18:2 n3),g,0.040,3
+22,Natri (Sodium),mg,5,2,Arachidonic (C20:4),g,0.000,3
+23,Kẽm  (Zinc),mg,1.90,2,Eicosapentaenoic  (C20:5 n3),g,0.000,3
+24,Đồng (Copper),μg,360,2,Docosahexaenoic (C22:6 n3),g,0.000,3
+25,Selen (Selenium),μg,38.8,2,TS acid béo trans (Total trans fatty acid),g,-,
+26,Vitamin C (Ascorbic acid),mg,0,2,Cholesterol,mg,0,3
+27,Vitamin B1 (Thiamine),mg,0.34,2,Phytosterol,mg,-,
+28,Vitamin B2 (Riboflavin),mg,0.07,2,Lysin,mg,286,3
+29,Vitamin PP (Niacin),mg,5.0,2,Methionin,mg,169,3
+30,Vitamin B5 (Pantothenic acid),mg,1.5,2,Tryptophan,mg,96,3
+31,Vitamin B6 (Pyridoxine),mg,0.62,2,Phenylalanin,mg,387,3
+32,Folat (Folate),μg,20,3,Threonin,mg,275,3
+33,Vitamin B9 (Folic acid),μg,0,3,Valin,mg,440,3
+34,Vitamin H (Biotin ),μg,-,,Leucin,mg,620,3
+35,Vitamin B12 (Cyanocobalamine),μg,-,,Isoleucin,mg,318,3
+36,Vitamin A (Retinol),μg,0,2,Arginin,mg,569,3
+37,Vitamin D (Calciferol ),μg,-,,Histidin,mg,190,3
+38,Vitamin E (Alpha-tocopherol ),mg,-,,Cystin,mg,91,3
+39,Vitamin K (Phylloquinone),μg,-,,Tyrosin,mg,281,3
+40,Beta-caroten,μg,0,3,Alanin,mg,437,3
+41,Alpha-caroten,μg,0,3,Acid aspartic,mg,702,3
+42,Beta-cryptoxanthin,μg,0,3,Acid glutamic,mg,1528,3
+43,Lycopen,μg,0,3,Glycin,mg,369,3
+44,Lutein + Zeaxanthin,μg,0,3,Prolin,mg,352,3
+45,Purin,mg,-,,Serin,mg,388,3
+S,T,T,:, ,8,M,�, ,s,�,:,1,0,0,8
+,Thμnh phÇn dinh d−ìng,ĐV,Hμm lượng,TLTK,Thμnh phÇn dinh d−ìng.1,ĐV.1,Hμm lượng.1,TLTK.1
+0,(Nutrients),(Unit),(Value),(Source),(Nutrients),(Unit),(Value),(Source)
+1,Nước (Water ),g,14.0,1,Tổng số isoflavon (Total isoflavone),mg,-,
+2,Năng lượng (Energy ),KCal,331,,Daidzein,mg,-,
+3,,KJ,1385,,Genistein,mg,-,
+4,Protein,g,7.0,1,Glycetin,mg,-,
+5,Lipid (Fat),g,3.0,1,Tổng số acid béo no,g,0.720,3
+6,Glucid (Carbohydrate),g,69.0,1,(Total saturated fatty acid),,,
+7,Celluloza (Fiber),g,3.4,1,Palmitic (C16:0),g,0.530,3
+8,Tro (Ash),g,3.6,1,Margaric (C17:0),g,0.000,3
+9,Đường tổng số (Sugar),g,-,,Stearic (C18:0),g,0.150,3
+10,Galactoza (Galactose),g,-,,Arachidic (C20:0),g,0.000,3
+11,Maltoza (Maltose),g,-,,Behenic (22:0),g,0.000,3
+12,Lactoza (Lactose),g,-,,Lignoceric (C24:0),g,0.000,3
+13,Fructoza (Fructose),g,-,,TS acid béo không no 1 nối đôi,g,0.770,3
+14,Glucoza (Glucose),g,-,,(Total monounsaturated fatty acid),,,
+15,Sacaroza (Sucrose),g,-,,Myristoleic (C14:1),g,0.000,3
+16,Calci (Calcium),mg,22,1,Palmitoleic (C16:1),g,0.010,3
+17,Sắt (Iron),mg,2.70,1,Oleic (C18:1),g,0.740,3
+18,Magiê (Magnesium),mg,430,1,TS acid béo không no nhiều nối đôi,g,2.130,3
+19,Mangan (Manganese),mg,1.700,1,(Total polyunsaturated fatty acid),,,
+20,Phospho (Phosphorous),mg,290,1,Linoleic (C18:2 n6),g,2.020,3
+21,Kali (Potassium),mg,249,1,Linolenic (C18:2 n3),g,0.120,3
+22,Natri (Sodium),mg,7,1,Arachidonic (C20:4),g,0.000,3
+23,Kẽm  (Zinc),mg,1.50,1,Eicosapentaenoic  (C20:5 n3),g,0.000,3
+24,Đồng (Copper),μg,440,1,Docosahexaenoic (C22:6 n3),g,0.000,3
+25,Selen (Selenium),μg,2.7,3,TS acid béo trans (Total trans fatty acid),g,-,
+26,Vitamin C (Ascorbic acid),mg,0,1,Cholesterol,mg,0,3
+27,Vitamin B1 (Thiamine),mg,0.40,1,Phytosterol,mg,-,
+28,Vitamin B2 (Riboflavin),mg,0.09,1,Lysin,mg,135,3
+29,Vitamin PP (Niacin),mg,1.6,1,Methionin,mg,140,3
+30,Vitamin B5 (Pantothenic acid),mg,0.848,3,Tryptophan,mg,76,3
+31,Vitamin B6 (Pyridoxine),mg,0.384,3,Phenylalanin,mg,368,3
+32,Folat (Folate),μg,85,3,Threonin,mg,224,3
+33,Vitamin B9 (Folic acid),μg,0,3,Valin,mg,367,3
+34,Vitamin H (Biotin ),μg,-,,Leucin,mg,889,3
+35,Vitamin B12 (Cyanocobalamine),μg,0,3,Isoleucin,mg,295,3
+36,Vitamin A (Retinol),μg,0,1,Arginin,mg,243,3
+37,Vitamin D (Calciferol ),μg,-,,Histidin,mg,150,3
+38,Vitamin E (Alpha-tocopherol ),mg,0.05,3,Cystin,mg,135,3
+39,Vitamin K (Phylloquinone),μg,0.9,3,Tyrosin,mg,216,3
+40,Beta-caroten,μg,60,3,Alanin,mg,626,3
+41,Alpha-caroten,μg,-,,Acid aspartic,mg,461,3
+42,Beta-cryptoxanthin,μg,-,,Acid glutamic,mg,1522,3
+43,Lycopen,μg,-,,Glycin,mg,182,3
+44,Lutein + Zeaxanthin,μg,-,,Prolin,mg,557,3
+45,Purin,mg,62,4,Serin,mg,409,3
+S,T,T,:, ,9,M,�, ,s,�,:,1,0,0,9
+,Thμnh phÇn dinh d−ìng,ĐV,Hμm lượng,TLTK,Thμnh phÇn dinh d−ìng.1,ĐV.1,Hμm lượng.1,TLTK.1
+0,(Nutrients),(Unit),(Value),(Source),(Nutrients),(Unit),(Value),(Source)
+1,Nước (Water ),g,52.0,1,Tổng số isoflavon (Total isoflavone),mg,-,
+2,Năng lượng (Energy ),KCal,196,,Daidzein,mg,-,
+3,,KJ,818,,Genistein,mg,-,
+4,Protein,g,4.1,1,Glycetin,mg,-,
+5,Lipid (Fat),g,2.3,1,Tổng số acid béo no,g,0.280,5
+6,Glucid (Carbohydrate),g,39.6,1,(Total saturated fatty acid),,,
+7,Celluloza (Fiber),g,1.2,1,Palmitic (C16:0),g,0.240,5
+8,Tro (Ash),g,0.8,1,Margaric (C17:0),g,0.000,5
+9,Đường tổng số (Sugar),g,1.7,5,Stearic (C18:0),g,0.040,5
+10,Galactoza (Galactose),g,-,,Arachidic (C20:0),g,0.000,3
+11,Maltoza (Maltose),g,0.1,5,Behenic (22:0),g,0.000,3
+12,Lactoza (Lactose),g,0,5,Lignoceric (C24:0),g,0.000,3
+13,Fructoza (Fructose),g,0.2,5,TS acid béo không no 1 nối đôi,g,0.520,5
+14,Glucoza (Glucose),g,0.6,5,(Total monounsaturated fatty acid),,,
+15,Sacaroza (Sucrose),g,-,,Myristoleic (C14:1),g,0.000,5
+16,Calci (Calcium),mg,4,5,Palmitoleic (C16:1),g,0.000,5
+17,Sắt (Iron),mg,0.60,5,Oleic (C18:1),g,0.520,5
+18,Magiê (Magnesium),mg,39,5,TS acid béo không no nhiều nối đôi,g,0.890,5
+19,Mangan (Manganese),mg,0.350,5,(Total polyunsaturated fatty acid),,,
+20,Phospho (Phosphorous),mg,170,5,Linoleic (C18:2 n6),g,0.860,5
+21,Kali (Potassium),mg,306,5,Linolenic (C18:2 n3),g,0.030,5
+22,Natri (Sodium),mg,3,5,Arachidonic (C20:4),g,0.000,5
+23,Kẽm  (Zinc),mg,1.40,5,Eicosapentaenoic  (C20:5 n3),g,0.000,5
+24,Đồng (Copper),μg,240,5,Docosahexaenoic (C22:6 n3),g,0.000,5
+25,Selen (Selenium),μg,4,5,TS acid béo trans (Total trans fatty acid),g,-,
+26,Vitamin C (Ascorbic acid),mg,12,5,Cholesterol,mg,0,5
+27,Vitamin B1 (Thiamine),mg,0.15,5,Phytosterol,mg,-,
+28,Vitamin B2 (Riboflavin),mg,0.08,5,Lysin,mg,100,5
+29,Vitamin PP (Niacin),mg,1.8,5,Methionin,mg,71,5
+30,Vitamin B5 (Pantothenic acid),mg,0.54,5,Tryptophan,mg,24,5
+31,Vitamin B6 (Pyridoxine),mg,0.16,5,Phenylalanin,mg,190,5
+32,Folat (Folate),μg,33,5,Threonin,mg,140,5
+33,Vitamin B9 (Folic acid),μg,0,5,Valin,mg,180,5
+34,Vitamin H (Biotin ),μg,0.5,5,Leucin,mg,470,5
+35,Vitamin B12 (Cyanocobalamine),μg,0,3,Isoleucin,mg,140,5
+36,Vitamin A (Retinol),μg,0,1,Arginin,mg,150,5
+37,Vitamin D (Calciferol ),μg,-,,Histidin,mg,100,5
+38,Vitamin E (Alpha-tocopherol ),mg,0.8,5,Cystin,mg,59,5
+39,Vitamin K (Phylloquinone),μg,0,5,Tyrosin,mg,140,5
+40,Beta-caroten,μg,-,,Alanin,mg,280,5
+41,Alpha-caroten,μg,-,,Acid aspartic,mg,240,5
+42,Beta-cryptoxanthin,μg,-,,Acid glutamic,mg,760,5
+43,Lycopen,μg,-,,Glycin,mg,140,5
+44,Lutein + Zeaxanthin,μg,-,,Prolin,mg,330,5
+45,Purin,mg,52,4,Serin,mg,190,5
+S,T,T,:, ,1,0,M,�, ,s,�,:,1,0,1,0
+,Thμnh phÇn dinh d−ìng,ĐV,Hμm lượng,TLTK,Thμnh phÇn dinh d−ìng.1,ĐV.1,Hμm lượng.1,TLTK.1
+0,(Nutrients),(Unit),(Value),(Source),(Nutrients),(Unit),(Value),(Source)
+1,Nước (Water ),g,14.0,1,Tổng số isoflavon (Total isoflavone),mg,-,
+2,Năng lượng (Energy ),KCal,354,,Daidzein,mg,-,
+3,,KJ,1482,,Genistein,mg,-,
+4,Protein,g,8.6,1,Glycetin,mg,-,
+5,Lipid (Fat),g,4.7,1,Tổng số acid béo no,g,0.670,3
+6,Glucid (Carbohydrate),g,69.4,1,(Total saturated fatty acid),,,
+7,Celluloza (Fiber),g,2.0,1,Palmitic (C16:0),g,0.570,3
+8,Tro (Ash),g,1.3,1,Margaric (C17:0),g,0.000,5
+9,Đường tổng số (Sugar),g,0.64,3,Stearic (C18:0),g,0.080,3
+10,Galactoza (Galactose),g,-,,Arachidic (C20:0),g,0.000,3
+11,Maltoza (Maltose),g,-,,Behenic (22:0),g,0.000,3
+12,Lactoza (Lactose),g,-,,Lignoceric (C24:0),g,0.000,3
+13,Fructoza (Fructose),g,-,,TS acid béo không no 1 nối đôi,g,1.250,3
+14,Glucoza (Glucose),g,-,,(Total monounsaturated fatty acid),,,
+15,Sacaroza (Sucrose),g,-,,Myristoleic (C14:1),g,0.000,3
+16,Calci (Calcium),mg,30,1,Palmitoleic (C16:1),g,0.000,3
+17,Sắt (Iron),mg,2.30,1,Oleic (C18:1),g,1.250,3
+18,Magiê (Magnesium),mg,127,3,TS acid béo không no nhiều nối đôi,g,2.160,3
+19,Mangan (Manganese),mg,0.490,3,(Total polyunsaturated fatty acid),,,
+20,Phospho (Phosphorous),mg,190,1,Linoleic (C18:2 n6),g,2.100,3
+21,Kali (Potassium),mg,287,3,Linolenic (C18:2 n3),g,0.070,3
+22,Natri (Sodium),mg,35,3,Arachidonic (C20:4),g,0.000,3
+23,Kẽm  (Zinc),mg,2.21,3,Eicosapentaenoic  (C20:5 n3),g,0.000,3
+24,Đồng (Copper),μg,314,3,Docosahexaenoic (C22:6 n3),g,0.000,3
+25,Selen (Selenium),μg,15.5,3,TS acid béo trans (Total trans fatty acid),g,-,
+26,Vitamin C (Ascorbic acid),mg,0,1,Cholesterol,mg,0,3
+27,Vitamin B1 (Thiamine),mg,0.28,1,Phytosterol,mg,-,
+28,Vitamin B2 (Riboflavin),mg,0.11,1,Lysin,mg,242,3
+29,Vitamin PP (Niacin),mg,2.0,1,Methionin,mg,180,3
+30,Vitamin B5 (Pantothenic acid),mg,0.424,3,Tryptophan,mg,61,3
+31,Vitamin B6 (Pyridoxine),mg,0.622,3,Phenylalanin,mg,423,3
+32,Folat (Folate),μg,19,3,Threonin,mg,323,3
+33,Vitamin B9 (Folic acid),μg,0,3,Valin,mg,435,3
+34,Vitamin H (Biotin ),μg,-,,Leucin,mg,1054,3
+35,Vitamin B12 (Cyanocobalamine),μg,0,3,Isoleucin,mg,308,3
+36,Vitamin A (Retinol),μg,0,1,Arginin,mg,429,3
+37,Vitamin D (Calciferol ),μg,-,,Histidin,mg,262,3
+38,Vitamin E (Alpha-tocopherol ),mg,0.49,3,Cystin,mg,155,3
+39,Vitamin K (Phylloquinone),μg,0.3,3,Tyrosin,mg,350,3
+40,Beta-caroten,μg,97,3,Alanin,mg,644,3
+41,Alpha-caroten,μg,63,3,Acid aspartic,mg,598,3
+42,Beta-cryptoxanthin,μg,0,3,Acid glutamic,mg,1614,3
+43,Lycopen,μg,0,3,Glycin,mg,352,3
+44,Lutein + Zeaxanthin,μg,1355,3,Prolin,mg,750,3
+45,Purin,mg,-,,Serin,mg,408,3
