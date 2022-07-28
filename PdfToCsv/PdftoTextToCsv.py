@@ -18,7 +18,7 @@ with io.open(r"C:\Users\Dell\Documents\Python Test\PdfToCsv\VTN_FCT_2007.pdf", "
         pageObj = pdfReader.getPage(i)
         output.append(pageObj.extractText())
 
-print(output)
+print(output.split("\n"))
 # print(type(pdf))
 # Save all text to a txt file.
 
