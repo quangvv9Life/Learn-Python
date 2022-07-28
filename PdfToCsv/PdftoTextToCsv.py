@@ -23,13 +23,26 @@ for i in range(len(output)):
     innerList = output[i].split("\n")
     Listz.append(innerList[0])
     
-print(Listz)
-
+# print(Listz)
+# print(pdf)
 # print(type(pdf))
 # Save all text to a txt file.
 
+
+
+# for i in range(len(pdf)):
+#     df = pd.DataFrame(pdf[i])
+#     header_row = df.iloc[0]
+#     df2 = pd.DataFrame(df.values[1:], columns=header_row)
+
+#     print(df2)
+
+
+
+# with open("Extract.csv", "a") as file1:
 for i in range(len(pdf)):
-    pdf[i].to_csv("Extract.csv")
+    # pdf[i].to_csv("Extract.csv", mode = "a")
+    pdf[i].to_csv('Extract.csv', mode = "a") #, sep = ',', mode='a', index= False,header=False)
 
 
 with open('VTN_FCT.txt', 'w', encoding="utf-8") as f:
