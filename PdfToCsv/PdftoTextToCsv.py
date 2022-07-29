@@ -5,30 +5,79 @@ import tabula
 import pandas as pd
 import io
 
+# Define a function called "append data to csv"
+
+# from csv import writer
+def append_element_of_list_as_row(file_name, list_of_elem):
+    # Open file in append mode
+    with open(file_name, 'a+', encoding="utf-8") as write_obj:
+        # Create a writer object from csv module
+        csv_writer = csv.writer(write_obj)
+        # Add contents of list as last row in the csv file
+        csv_writer.writerow(list_of_elem)
+
 #Load your PDF
-with io.open(r"C:\Users\Dell\Documents\Python Test\PdfToCsv\VTN_FCT_2007.pdf", "rb") as f:
-#    pdf = pdftotext.PDF(f)
-    # pdf = tabula.read_pdf(f, pages = 'all')
-    # pdf = tabula.read_pdf(f, pages = 'all')[2]
-    pagez = [14,15]
-    pdf = tabula.read_pdf(f, pages = pagez)
+with io.open(r"G:\tryPython\Python Test\PdfToCsv\VTN_FCT_2007.pdf", "rb") as f:
+    # pagez = list(range(13,36+1))
+    # pagez = list(range(38,64+1))
+    # pagez = list(range(66,99+1))
+    # pagez = list(range(85,99+1))
+    # pagez = list(range(97,99+1))
+    # pagez = 98
+    # pagez = list(range(102,228+1))
+    # pagez = list(range(231,286+1))
+    # pagez = list(range(288,302+1))
+    pagez = list(range(305,386+1))
+    
+    #No need encode - majority
+    try:
+        pdf = tabula.read_pdf(f, pages = pagez)
+    except UnicodeDecodeError:
+    #Need encode - minority
+        pdf = tabula.read_pdf(f, pages = pagez, encoding = "ISO-8859-1")
+ 
     pdfReader = PyPDF2.PdfFileReader(f) 
     output = []
     for i in pagez:
         pageObj = pdfReader.getPage(i)
         output.append(pageObj.extractText())
 
-print(output.split("\n"))
+Listz = []
+for i in range(len(output)):
+    innerList = output[i].split("\n")
+    Listz.append(innerList[0])
+
+with open("Extract.csv", "a") as file1:
+    # for i in range(len(pagez)):%
+    for i, j in enumerate(pagez):
+    # for i in pagez:
+        append_element_of_list_as_row("Extract.csv", Listz[i])
+        # Corresponding tables are behind by 2 pages
+        try:
+            pdf[i+2].to_csv('Extract.csv', mode = "a") #, sep = ',', mode='a', index= False,header=False)
+        except IndexError:
+            break
+            
+        
+        
+
+# print(Listz)
+# print(pdf)
+# print(type(Listz))
 # print(type(pdf))
 # Save all text to a txt file.
 
-for i in range(len(pdf)):
-    pdf[i].to_csv("Extract.csv")
+# for i in range(len(pdf)):
+#     df = pd.DataFrame(pdf[i])
+#     header_row = df.iloc[0]
+#     df2 = pd.DataFrame(df.values[1:], columns=header_row)
 
+#     print(df2)
+# append_element_of_list_as_row("Extract.csv", Listz)
 
-with open('VTN_FCT.txt', 'w', encoding="utf-8") as f:
+# with open('VTN_FCT.txt', 'w', encoding="utf-8") as f:
 
-    pd.concat(pdf).to_csv(f)
+#     pd.concat(pdf).to_csv(f)
     # f.write("\n\n".join(pdf))
     # dfAsString = pdf.to_string(header=False, index=False)
     # f.write(dfAsString)
