@@ -42,7 +42,6 @@ with open("Extract.csv", "a") as file1:
         append_element_of_list_as_row("Extract.csv", Listz[i])
         # Corresponding tables are behind by 2 pages
         try:
-
             pdf[i+2].to_csv('Extract.csv', mode = "a") #, sep = ',', mode='a', index= False,header=False)
         except AttributeError:
             break
