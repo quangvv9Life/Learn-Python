@@ -17,6 +17,14 @@ def append_element_of_list_as_row(file_name, list_of_elem):
         # Add contents of list as last row in the csv file
         csv_writer.writerow(list_of_elem)
 
+def append_element_of_list_as_row_not_iterable(file_name, list_of_elem):
+    # Open file in append mode
+    with open(file_name, 'a+', encoding="utf-8") as write_obj:
+        # Create a writer object from csv module
+        # csv_writer = csv.writer(write_obj)
+        # Add contents of list as last row in the csv file
+        write_obj.write(list_of_elem)
+
 # Dell Desktop : Load your PDF
 with io.open(r"G:\tryPython\Python Test\PdfToCsv\VTN_FCT_2007.pdf", "rb") as f:
 # Dell Laptop : Load your PDF
@@ -62,16 +70,18 @@ for i in range(len(output)):
             Listz.append(innerList[0])
         except IndexError:
             break
+
 headers = [  "Nutrients", "Unit", "Value", "Source", "Placeholder", "Nutrients", "Unit", "Value", "Source", "Ingre_code" ]
 with open("Extract_1.csv", "a") as file1:
     # for i in range(len(pagez)):%
     for i, j in enumerate(pagez):
     # for i in pagez:
-        # append_element_of_list_as_row("Extract_1.csv", list(Listz[i]))
+        append_element_of_list_as_row_not_iterable("Extract_1.csv", Listz[i])
         # Corresponding tables are behind by 2 pages
         try:
-            pdf[i+2].to_csv('Extract_1.csv', mode = "a", columns = headers) #, sep = ',', mode='a', index= False,header=False)
-            for col in file1:
-                col[8] = append_element_of_list_as_row("Extract_1.csv", list(Listz[i]))
+            # pdf[i+2].to_csv('Extract_1.csv', mode = "a", columns = headers) #, sep = ',', mode='a', index= False,header=False)
+            pdf[i+2].to_csv('Extract_1.csv', mode = "a")
+            # for col in file1:
+            #     col[8] = append_element_of_list_as_row("Extract_1.csv", "".join(Listz[i]))
         except IndexError:
             break
