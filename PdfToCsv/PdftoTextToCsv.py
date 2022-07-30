@@ -5,6 +5,7 @@ import tabula
 import pandas as pd
 import io
 import re
+import openpyxl
 
 # Define a function called "append data to csv"
 
@@ -29,16 +30,19 @@ def append_element_of_list_as_row_not_iterable(file_name, list_of_elem):
 with io.open(r"G:\tryPython\Python Test\PdfToCsv\VTN_FCT_2007.pdf", "rb") as f:
 # Dell Laptop : Load your PDF
 # with io.open(r"C:\Users\Dell\Documents\Python Test\PdfToCsv\VTN_FCT_2007.pdf", "rb") as f:
-    pagez = list(range(13,36+1))
+    # pagez = list(range(13,36+1))
     # pagez = list(range(38,64+1))
     # pagez = list(range(66,99+1))
-    # pagez = list(range(85,99+1))
+    # pagez = list(range(102,228+1))
+    # pagez = list(range(230,286+1))
+    # pagez = list(range(288,302+1))
+    # pagez = list(range(304,386+1))
+    pagez = list(range(388,447+1))
+
+    
     # pagez = list(range(97,99+1))
     # pagez = 98
-    # pagez = list(range(102,228+1))
-    # pagez = list(range(231,286+1))
-    # pagez = list(range(288,302+1))
-    # pagez = list(range(305,386+1))
+
     
     #No need encode - majority
     try:
@@ -71,17 +75,34 @@ for i in range(len(output)):
         except IndexError:
             break
 
-headers = [  "Nutrients", "Unit", "Value", "Source", "Placeholder", "Nutrients", "Unit", "Value", "Source", "Ingre_code" ]
+# headers = [  "Nutrients", "Unit", "Value", "Source", "Placeholder", "Nutrients", "Unit", "Value", "Source", "Ingre_code" ]
 with open("Extract_1.csv", "a") as file1:
-    # for i in range(len(pagez)):%
+    # for i in range(len(pagez)):
     for i, j in enumerate(pagez):
     # for i in pagez:
-        append_element_of_list_as_row_not_iterable("Extract_1.csv", Listz[i])
-        # Corresponding tables are behind by 2 pages
+        # Handle index out of range error :
         try:
+            append_element_of_list_as_row_not_iterable("Extract_1.csv", Listz[i])
+        except IndexError:
+            break
+        
+        # Handle index out of range error :
+        try:
+        # Corresponding tables are behind by x pages
             # pdf[i+2].to_csv('Extract_1.csv', mode = "a", columns = headers) #, sep = ',', mode='a', index= False,header=False)
-            pdf[i+2].to_csv('Extract_1.csv', mode = "a")
+        # For pagez = list(range(13,36+1)) and pagez = list(range(38,64+1))
+            # pdf[i+2].to_csv('Extract_1.csv', mode = "a")
+        # For pagez = 66-99, 288-302
+            # pdf[i].to_csv('Extract_1.csv', mode = "a")
+        # For pagez = 102-228, 230-286, 305-386
+            pdf[i+1].to_csv('Extract_1.csv', mode = "a")
             # for col in file1:
             #     col[8] = append_element_of_list_as_row("Extract_1.csv", "".join(Listz[i]))
         except IndexError:
             break
+# Open the output file and filter column A - ingre's code to check
+# wb = openpyxl.load_workbook('Extract_1.csv')
+# ws1 = wb.active
+
+# ws1.auto_filter.ref = 'A:A'
+# ws1.auto_filter.add_filter_column(0, ['sÃ¨'])
