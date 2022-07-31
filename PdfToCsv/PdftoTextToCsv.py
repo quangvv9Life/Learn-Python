@@ -37,13 +37,10 @@ with io.open(r"G:\tryPython\Python Test\PdfToCsv\VTN_FCT_2007.pdf", "rb") as f:
     # pagez = list(range(230,286+1))
     # pagez = list(range(288,302+1))
     # pagez = list(range(304,386+1))
-    pagez = list(range(388,447+1))
+    # pagez = list(range(388,447+1))
+    # pagez = list(range(449,460+1))
+    pagez =  list(range(462,471+1)) + list(range(474,494+1)) + list(range(496,523+1)) + list(range(525,548+1)) + list(range(550,566+1))
 
-    
-    # pagez = list(range(97,99+1))
-    # pagez = 98
-
-    
     #No need encode - majority
     try:
         pdf = tabula.read_pdf(f, pages = pagez)
@@ -93,9 +90,9 @@ with open("Extract_1.csv", "a") as file1:
         # For pagez = list(range(13,36+1)) and pagez = list(range(38,64+1))
             # pdf[i+2].to_csv('Extract_1.csv', mode = "a")
         # For pagez = 66-99, 288-302
-            # pdf[i].to_csv('Extract_1.csv', mode = "a")
+            pdf[i].to_csv('Extract_1.csv', mode = "a")
         # For pagez = 102-228, 230-286, 305-386
-            pdf[i+1].to_csv('Extract_1.csv', mode = "a")
+            # pdf[i+1].to_csv('Extract_1.csv', mode = "a")
             # for col in file1:
             #     col[8] = append_element_of_list_as_row("Extract_1.csv", "".join(Listz[i]))
         except IndexError:
